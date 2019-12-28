@@ -9,8 +9,32 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
+.card-img{
+  height:40rem;
+}
+#social-icons02{
+  padding-top: 20px;
+}
+.bg-nav{
+  background-color: #E63946;
+}
+.card-style{
+  width: 18rem ;
+  height:54.5rem; 
+}
+.bg-experience{
+  background-color: #A8DADC;
+}
+.bg-skills{
+  background-color: #457B9D;
+}
+.bg-project{
+  background-color: #1D3557;
+}
 
-
+.bg-education{
+  background-color: #F1FAEE;
+}
 .social-icons .bg-twitter:hover {
   background-color: rgb(43, 162, 241);
 }
@@ -56,14 +80,14 @@ h3 {
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'  'Bree Serif', serif;;
   font-size: 1.5rem;
 }
 
@@ -84,8 +108,17 @@ p.lead {
   margin-right: 0;
 }
 
-
-
+.text-capitalize{
+  text-transform: capitalize ;
+  
+}
+.custome-font{
+  font-family: 'PT Serif', serif;
+ 
+}
+.or-color{
+  color: #d48a6e;
+}
 /* .social-icons a:hover {
   background-color: rgb(91, 56, 189);
 } */
@@ -98,9 +131,17 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+}
+
+#sideNav .nav-link{
+  color :457B9D;
+}
+#sideNav a:hover{
+  color : black
 }
 
 #sideNav .navbar-toggler:focus {
