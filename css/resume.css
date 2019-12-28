@@ -9,6 +9,12 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
+
+.sm-nav-img{
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+}
+
 .card-img{
   height:40rem;
 }
@@ -167,11 +173,11 @@ p.lead {
   }
 
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid rgb(212, 204, 206);
   }
-
+  
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -239,3 +245,5 @@ a:focus,
 a:active {
   color: #824027;
 }
+
+
